@@ -39,3 +39,12 @@ for(let i=0; i<team.length; i++){
     console.log(team[i].role);
     console.log(team[i].image);
 }
+
+// milestone 2
+const infos = document.getElementById('infos');
+
+for(let i=0; i<team.length; i++){
+    infos.innerHTML += team[i].name+'<br>';
+    infos.innerHTML += team[i].role+'<br>';
+    infos.innerHTML += team[i].image+'<br><br>';
+}
